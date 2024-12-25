@@ -5,6 +5,8 @@ import 'package:flutter_spotify_app/common/widgets/button/basic_app_button.dart'
 import 'package:flutter_spotify_app/core/configs/assets/app_images.dart';
 import 'package:flutter_spotify_app/core/configs/assets/app_vectors.dart';
 import 'package:flutter_spotify_app/core/configs/theme/app_colors.dart';
+import 'package:flutter_spotify_app/presentation/auth/pages/signin.dart';
+import 'package:flutter_spotify_app/presentation/auth/pages/signup.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SignupOrSigninPage extends StatelessWidget {
@@ -56,14 +58,31 @@ class SignupOrSigninPage extends StatelessWidget {
                     children: [
                       Expanded(
                         flex: 1,
-                        child:
-                            BasicAppButton(onPressed: () {}, title: 'Register'),
+                        child: BasicAppButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      const SignupPage(),
+                                ),
+                              );
+                            },
+                            title: 'Register'),
                       ),
                       SizedBox(width: 20),
                       Expanded(
                         flex: 1,
                         child: TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      const SigninPage(),
+                                ),
+                              );
+                            },
                             child: Text(
                               "Sign In",
                               style: TextStyle(
