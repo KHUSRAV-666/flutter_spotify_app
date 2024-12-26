@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "380506886870",
+    "project_id": "flutter-spotify-app-65868",
+    "storage_bucket": "flutter-spotify-app-65868.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380506886870:android:fbf2bd916d3908fd7baf77",
+        "android_client_info": {
+          "package_name": "com.example.spotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK4LLyzGNcmOgOb1FFhxxiE46pMI_3XbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380506886870:android:dba06941d625a06c7baf77",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK4LLyzGNcmOgOb1FFhxxiE46pMI_3XbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380506886870:android:b55e94e4289bf5fe7baf77",
+        "android_client_info": {
+          "package_name": "com.flutterspotify.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK4LLyzGNcmOgOb1FFhxxiE46pMI_3XbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
