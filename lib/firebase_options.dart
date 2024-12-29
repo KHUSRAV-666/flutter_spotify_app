@@ -51,19 +51,19 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAK4LLyzGNcmOgOb1FFhxxiE46pMI_3XbY',
-    appId: '1:380506886870:android:b55e94e4289bf5fe7baf77',
-    messagingSenderId: '380506886870',
-    projectId: 'flutter-spotify-app-65868',
-    storageBucket: 'flutter-spotify-app-65868.firebasestorage.app',
+    apiKey: 'AIzaSyBbCjY_oTfmAPYrgJfGOIJC_nqxQ97x0oM',
+    appId: '1:627552336828:android:c038a51ee07f25b796c9b9',
+    messagingSenderId: '627552336828',
+    projectId: 'spotify-50174',
+    storageBucket: 'spotify-50174.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA3UCIf5c4DOTRXs6qzS6onM_I5V1ckjZM',
-    appId: '1:380506886870:ios:978619240d13239b7baf77',
-    messagingSenderId: '380506886870',
-    projectId: 'flutter-spotify-app-65868',
-    storageBucket: 'flutter-spotify-app-65868.firebasestorage.app',
+    apiKey: 'AIzaSyB19XVMDV8AaW_l5jwv_0i5wKEmfpPvIDk',
+    appId: '1:627552336828:ios:1d544ff7c1ec66a796c9b9',
+    messagingSenderId: '627552336828',
+    projectId: 'spotify-50174',
+    storageBucket: 'spotify-50174.firebasestorage.app',
     iosBundleId: 'com.example.flutterSpotifyApp',
   );
 
